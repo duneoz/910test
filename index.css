@@ -88,6 +88,8 @@ p {
 background-color: rgb(224, 255, 209);
 }
 
+
+
 .knowledge-test {
   position: absolute;
   top: 205%;
@@ -96,6 +98,33 @@ background-color: rgb(224, 255, 209);
   height: 80%;
   width: 80%;
   margin-bottom: 5%;
+}
+
+.help-now{
+  position: absolute;
+  top: 305%;
+  left: 10%;
+  /* background-color: lightgreen; */
+  border: 3px dashed red;
+  height: 80%;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.help-grid-container{
+  float: left;
+  height: 90%;
+  width: 45%;
+  border: 1px dashed red;
+  margin: 2.5% 2.5%;
+}
+
+.my-help-grid-container{
+  float: right;
+  height: 90%;
+  width: 45%;
+  border: 1px dashed red;
+  margin: 2.5% 2.5%;
 }
 
 #header {

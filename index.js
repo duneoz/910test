@@ -63,7 +63,14 @@ $('#learn').click(function () {
 
 $('#test').click(function () {
     $('html,body').animate({
-        scrollTop: $(".knowledge-test").offset().top
+        scrollTop: $(".knowledge-test").offset().top -100
+    },
+        'slow');
+});
+
+$('#help').click(function () {
+    $('html,body').animate({
+        scrollTop: $(".help-now").offset().top
     },
         'slow');
 });
