@@ -11,8 +11,9 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./index.css">
 
-    <!-- Raleway + Damion Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Damion|Raleway:100|Yellowtail&display=swap" rel="stylesheet">
+    <!-- DM Sans + Tajawa Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans|Tajawal&display=swap" rel="stylesheet">
+
 
 
     <!-- jQuery -->
@@ -27,17 +28,20 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: green">
-        <a class="navbar-brand" href="#" style="color: white"> <b>910 a global emergency</b> </a>
+        <a class="navbar-brand" href="#" style="color: white; font-family: 'DM Sans', sans-serif;"> <b>910 a global
+                emergency</b> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style="float: right;">
             <div class="navbar-nav" style="float: right;">
-                <a id="home" class="nav-item nav-link active" href="#" style="color: white; float: right;">home <span
-                        class="sr-only">(current)</span></a>
-                <a id="learn" class="nav-item nav-link" href="#" style="color: white; float: right;">learn more</a>
-                <a id="test" class="nav-item nav-link" href="#" style="color: white; float: right;">knowledge check</a>
+                <a id="home" class="nav-item nav-link active" href="#" style="color: white; float: right; font-family: 'Tajawal', sans-serif;
+                ">home <span class="sr-only">(current)</span></a>
+                <a id="learn" class="nav-item nav-link" href="#" style="color: white; float: right; font-family: 'Tajawal', sans-serif;
+                ">learn more</a>
+                <a id="test" class="nav-item nav-link" href="#" style="color: white; float: right; font-family: 'Tajawal', sans-serif;
+                ">knowledge check</a>
             </div>
         </div>
     </nav>
@@ -50,33 +54,38 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color: #3e3e3e">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <p class="carousel-caption" style="font-size: 36px;">9 out of 10 people said they would recycle if
+                    <p class="carousel-caption" style="font-family: 'DM Sans', sans-serif; font-size: 36px;">9 out of 10
+                        people said they would recycle if
                         it were “easier”.
                     </p>
                     <img src="./images/pollution1.jpg" class="d-block w-100" alt="..." style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <p class="carousel-caption" style="font-size: 24px;">The leading cities for recycling in the US are
+                    <p class="carousel-caption" style="font-family: 'DM Sans', sans-serif; font-size: 24px;">The leading
+                        cities for recycling in the US are
                         (#1) San Francisco, CA (#2) Boston, MA (#3)
                         Chicago, IL (#4) Denver, CO and (#5) Portland, OR.
                     </p>
                     <img src="./images/pollution2.jpg" class="d-block w-100" alt="..." style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <p class="carousel-caption" style="font-size: 24px;">The U.S. recycling rate is around 34.5%. If
+                    <p class="carousel-caption" style="font-family: 'DM Sans', sans-serif; font-size: 24px;">The U.S.
+                        recycling rate is around 34.5%. If
                         we’re able to get the rate to 75%, the effect will be
                         like removing 50 million passenger cars from U.S. roads.
                     </p>
                     <img src="./images/pollution3.png" class="d-block w-100" alt="..." style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <p class="carousel-caption" style="font-size: 36px;">Recycling plastic saves twice as much energy as
+                    <p class="carousel-caption" style="font-family: 'DM Sans', sans-serif; font-size: 36px;">Recycling
+                        plastic saves twice as much energy as
                         it takes to burn it.
                     </p>
                     <img src="./images/pollution3.png" class="d-block w-100" alt="..." style="opacity: .5;">
                 </div>
                 <div class="carousel-item">
-                    <p class="carousel-caption" style="font-size: 28px;">Over 11 million tons of recyclable clothing,
+                    <p class="carousel-caption" style="font-family: 'DM Sans', sans-serif; font-size: 28px;">Over 11
+                        million tons of recyclable clothing,
                         shoes, and textiles make their way into landfills
                         each year.
                     </p>
@@ -96,26 +105,44 @@
 
     <div class="learn-more">
         <div>
-            <h1>Learn More</h1>
-            <h6>search your zip code to learn more about how to recylce different materials in your area</h6>
+            <h1 style="font-family: 'DM Sans', sans-serif; display: inline;">Learn More</h1>
+
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                style="font-family: 'Tajawal', sans-serif; float: right;">Search</button>
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search"
+                style="font-family: 'Tajawal', sans-serif; float: right;">
+            <h6 style="font-family: 'Tajawal', sans-serif; margin-top: 8px;">search your zip code to learn more about how to recylce
+                different materials in your area</h6>
         </div>
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
 
         <div class="grid-container">
-            <div class="grid-item"> <img class="grid-pic" src="./images/paperico.png">Paper Recycling</div>
-            <div class="grid-item">Recycle Stream 1 information placeholder</div>
-            <div class="grid-item"> <img class="grid-pic" src="./images/cansbottlesicon.png">Cans and Bottles</div>
-            <div class="grid-item">Recycle Stream 2 information placeholder</div>
-            <div class="grid-item"> <img class="grid-pic" src="./images/ewasteicon.png">Electronic Recycling</div>
-            <div class="grid-item">Recycle Stream 3 information placeholder</div>
-            <div class="grid-item"> <img class="grid-pic" src="./images/batteryico.png">Battery Recycling</div>
-            <div class="grid-item">Recycle Stream 4 information placeholder</div>
-            <div class="grid-item"> <img class="grid-pic" src="./images/tonericon.png">Toner Cartridge Recycling</div>
-            <div class="grid-item">Recycle Stream 5 information placeholder</div>
-            <div class="grid-item"> <img class="grid-pic" src="./images/lightbulbico.png">Flourescent Bulb Recycling
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/paperico.png" style="display: block;">Paper</div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 1 information placeholder
             </div>
-            <div class="grid-item">Recycle Stream 6 information placeholder</div>
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/cansbottlesicon.png" style="display: block;">Cans and Bottles
+            </div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 2 information placeholder
+            </div>
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/ewasteicon.png" style="display: block;">Electronic</div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 3 information placeholder
+            </div>
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/batteryico.png" style="display: block;">Battery</div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 4 information placeholder
+            </div>
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/tonericon.png" style="display: block;">Toner Cartridge</div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 5 information placeholder
+            </div>
+            <div class="grid-item grid-items-left" style="font-family: 'DM Sans', sans-serif; font-weight: bold;"> <img class="grid-pic"
+                    src="./images/lightbulbico.png" style="display: block;">Flourescent Bulb
+            </div>
+            <div class="grid-item grid-items-right" style="font-family: 'Tajawal', sans-serif;">Recycle Stream 6 information placeholder
+            </div>
         </div>
 
     </div>
@@ -153,7 +180,7 @@
         </div>
     </div>
 
-<!-- 
+    <!-- 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script> -->
