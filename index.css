@@ -79,10 +79,10 @@ p {
   margin-right: auto;
 }
 
-.grid-items-left {
+/* .grid-items-left {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .grid-items-right{
 background-color: rgb(224, 255, 209);
