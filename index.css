@@ -85,7 +85,7 @@ p {
 } */
 
 .grid-items-right{
-background-color: rgb(224, 255, 209);
+background-color: #D1FFDD;
 }
 
 
@@ -94,7 +94,7 @@ background-color: rgb(224, 255, 209);
   position: absolute;
   top: 205%;
   left: 10%;
-  background-color: lightgreen;
+  background-color: #94ECBE;
   height: 80%;
   width: 80%;
   margin-bottom: 5%;
@@ -116,7 +116,7 @@ background-color: rgb(224, 255, 209);
   height: 100%;
   width: 45%;
   overflow: hidden;
-  border: 2px solid rgb(115, 196, 81);
+  border: 2px solid #004400;
   border-radius: 15px;
 }
 
@@ -125,7 +125,7 @@ background-color: rgb(224, 255, 209);
   height: 100%;
   width: 45%;
   overflow: hidden;
-  border: 2px solid rgb(115, 196, 81);
+  border: 2px solid #004400;
   border-radius: 15px;
 }
 
@@ -136,10 +136,13 @@ background-color: rgb(224, 255, 209);
   /* border: 1px dashed red; */
   /* margin: 2.5% 2.5%; */
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 15% 15% 15% 15% 15% 15%;
-  overflow: hidden;
+  grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 2%;
+  overflow: scroll;
   grid-row-gap: 5%;
 }
+
+.help-grid-container::-webkit-scrollbar { width: 0 !important }
+
 
 .help-grid-item{
   /* border: 1px dashed red; */
@@ -154,7 +157,8 @@ background-color: rgb(224, 255, 209);
   font-weight: bold;
   font-size: 28px;
   /* border-radius: 15px 15px 0px 0px; */
-  background-color: rgb(115, 196, 81);
+  background-color: #004400;
+  color: whitesmoke;
 }
 
 .my-help-grid-container{
